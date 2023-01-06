@@ -23,7 +23,7 @@
 }
 body {
   width: 1440px;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
 }
 .border {
   background: #ffffff;
@@ -458,8 +458,8 @@ body {
   margin-top: 54px;
 }
 .footer-main {
-  margin-top: 92px;
-  margin-bottom: 48px;
+  /* margin-top: 92px; */
+  /* margin-bottom: 48px; */
   margin-left: 55px;
   margin-right: 55px;
   display: flex;
@@ -480,6 +480,7 @@ body {
 }
 .footer {
   background-color: #eeeeee;
+  padding-top: 92px;
 }
 .sub-img {
   width: 80px;
@@ -500,9 +501,10 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #000000;
+  padding-bottom: 48px;
 }
 .br-f {
-  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
 }
 .ul-footer {
   display: flex;
@@ -512,9 +514,9 @@ body {
   font-size: 20px;
   line-height: 25px;
   color: #000000;
-  padding-bottom: 21px;
+  /* padding-bottom: 21px; */
 }
-.ul-footer > ul > li > a {
+.ul > li > a {
   text-decoration: none;
 
   font-weight: 400;
@@ -522,6 +524,40 @@ body {
   line-height: 15px;
   color: #000000;
 }
-.ul-footer > ul > li {
-  padding-bottom: 15px;
+.ul {
+  margin-left: 34px;
+  width: 187px;
+}
+.ul > li {
+  padding-top: 15px;
+}
+
+.pl {
+  margin-left: 70px;
+}
+.pr {
+  margin-left: 34px;
+}
+.footer-two {
+  display: flex;
+  justify-content: space-between;
+}
+.one {
+  margin-top: 47px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+}
+.two {
+  margin-top: 47px;
+  margin-bottom: 48px;
+  display: block;
+  margin-right: 76px;
+}
+.one > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 14px;
+  width: 301px;
 }
